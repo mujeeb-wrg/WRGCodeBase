@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WRGCodeBase (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WRGCodeBase (from `../`)
+
+EXTERNAL SOURCES:
+  WRGCodeBase:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WRGCodeBase: 6c14218fdf12ecbe62232516cfa676c3f6382ce6
+
+PODFILE CHECKSUM: 49323af90909544d1e337ea294772304741b9b88
+
+COCOAPODS: 1.2.1
