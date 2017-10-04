@@ -25,6 +25,8 @@ class Tests: XCTestCase {
 
         XCTAssert(validator.isNotEmpty(text: "Mujeeb"))
         
+        
+        
     }
     
     func testPerformanceExample() {

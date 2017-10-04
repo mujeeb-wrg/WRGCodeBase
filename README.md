@@ -22,7 +22,7 @@ pod 'WRGCodeBase'
 
 ## Author
 
-wrg-mujeeb, mujeeb@whiterabbit.group
+Mujeeb Rahman O, mujeeb@whiterabbit.group
 
 ## License
 

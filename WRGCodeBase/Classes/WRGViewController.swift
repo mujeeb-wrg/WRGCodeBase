@@ -7,11 +7,11 @@
 
 import UIKit
 
+
 public class WRGViewController: UIViewController {
 
     override public func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
