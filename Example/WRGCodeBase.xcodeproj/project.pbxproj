@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A6F3DF70B5CCB280FCE9B1DB /* Pods_WRGCodeBase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD6E134EA8C27A9FDC45BCE /* Pods_WRGCodeBase_Tests.framework */; };
+		EA931B591F84B50900E25B51 /* WRGCodeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA931B5A1F84B50900E25B51 /* WRGCodeBase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8DEE8D529FE74E23C3FF592D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA2B84E4AC89BD93171A310B /* Pods_WRGCodeBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRGCodeBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD6E134EA8C27A9FDC45BCE /* Pods_WRGCodeBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRGCodeBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA931B5A1F84B50900E25B51 /* WRGCodeBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WRGCodeBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16F6A502EF8298C63866128 /* Pods-WRGCodeBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRGCodeBase_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WRGCodeBase_Example/Pods-WRGCodeBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F9CF54B88AB9DFBC35A58A8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA931B591F84B50900E25B51 /* WRGCodeBase.framework in Frameworks */,
 				563D2AC3E79A334CA80018C6 /* Pods_WRGCodeBase_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +156,7 @@
 		8AC3E27501B891EDB1952E62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EA931B5A1F84B50900E25B51 /* WRGCodeBase.framework */,
 				AA2B84E4AC89BD93171A310B /* Pods_WRGCodeBase_Example.framework */,
 				CBD6E134EA8C27A9FDC45BCE /* Pods_WRGCodeBase_Tests.framework */,
 			);
