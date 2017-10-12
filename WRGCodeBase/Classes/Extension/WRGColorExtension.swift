@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
     public convenience init(hex: String, alpha: Float = 1.0){
         var scanner = Scanner(string:hex)
         var color:UInt32 = 0;
