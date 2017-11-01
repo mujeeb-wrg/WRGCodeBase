@@ -1,0 +1,6 @@
+framework module WRGCodeBase {
+  umbrella header "WRGCodeBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

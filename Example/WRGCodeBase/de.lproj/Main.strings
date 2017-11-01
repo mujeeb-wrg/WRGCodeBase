@@ -1,0 +1,12 @@
+/* Class = "UIBarButtonItem"; title = "Sample"; ObjectID = "OrB-6C-T0B"; */
+"OrB-6C-T0B.title" = "Sample";
+
+/* Class = "UINavigationItem"; title = "Demos"; ObjectID = "dct-h6-j3d"; */
+"dct-h6-j3d.title" = "Demos";
+
+/* Class = "UILabel"; text = "JSON Encoder/Decoder"; ObjectID = "eSG-Cb-JQh"; */
+"eSG-Cb-JQh.text" = "JSON Encoder/Decoder";
+
+/* Class = "UILabel"; text = "This demo does'nt have any preview"; ObjectID = "uoG-gs-PWx"; */
+"uoG-gs-PWx.text" = "This demo does'nt have any preview";
+

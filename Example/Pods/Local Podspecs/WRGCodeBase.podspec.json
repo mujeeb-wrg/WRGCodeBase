@@ -1,0 +1,22 @@
+{
+  "name": "WRGCodeBase",
+  "version": "0.1.0",
+  "summary": "A short description of WRGCodeBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wrg-mujeeb/WRGCodeBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wrg-mujeeb": "mujeeb@whiterabbit.group"
+  },
+  "source": {
+    "git": "https://github.com/wrg-mujeeb/WRGCodeBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WRGCodeBase/Classes/**/*"
+}

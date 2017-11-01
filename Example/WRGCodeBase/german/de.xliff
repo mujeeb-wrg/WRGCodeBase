@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="WRGCodeBase/Base.lproj/LaunchScreen.xib" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="8ie-xW-0ye.text">
+        <source>  Copyright (c) 2015 CocoaPods. All rights reserved.</source>
+        <target>  Copyright (c) 2015 CocoaPods. All rights reserved.</target>
+        <note>Class = "UILabel"; text = "  Copyright (c) 2015 CocoaPods. All rights reserved."; ObjectID = "8ie-xW-0ye";</note>
+      </trans-unit>
+      <trans-unit id="kId-c2-rCX.text">
+        <source>WRGCodeBase</source>
+        <target>WRGCodeBase</target>
+        <note>Class = "UILabel"; text = "WRGCodeBase"; ObjectID = "kId-c2-rCX";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WRGCodeBase/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="OrB-6C-T0B.title">
+        <source>Sample</source>
+        <target>Sample</target>
+        <note>Class = "UIBarButtonItem"; title = "Sample"; ObjectID = "OrB-6C-T0B";</note>
+      </trans-unit>
+      <trans-unit id="dct-h6-j3d.title">
+        <source>Demos</source>
+        <target>Demos</target>
+        <note>Class = "UINavigationItem"; title = "Demos"; ObjectID = "dct-h6-j3d";</note>
+      </trans-unit>
+      <trans-unit id="eSG-Cb-JQh.text">
+        <source>JSON Encoder/Decoder</source>
+        <target>JSON Encoder/Decoder</target>
+        <note>Class = "UILabel"; text = "JSON Encoder/Decoder"; ObjectID = "eSG-Cb-JQh";</note>
+      </trans-unit>
+      <trans-unit id="uoG-gs-PWx.text">
+        <source>This demo does'nt have any preview</source>
+        <target>This demo does'nt have any preview</target>
+        <note>Class = "UILabel"; text = "This demo does'nt have any preview"; ObjectID = "uoG-gs-PWx";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WRGCodeBase/Info.plist" source-language="en" datatype="plaintext" target-language="de">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
