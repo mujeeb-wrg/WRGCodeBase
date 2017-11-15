@@ -150,7 +150,7 @@ open class TextValidator: NSObject {
     
     func isLengthOf(field:UITextField,is length:Int, message:String) -> Bool {
         responderTextField = field
-        return isLengthOf(text: field.text, is: length, message: message)
+        return isLengthOf(text: field.text!, is: length, message: message)
     }
     
     func isLengthOf(text:String,is length:Int, message:String) -> Bool {
