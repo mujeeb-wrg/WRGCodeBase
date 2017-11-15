@@ -107,7 +107,7 @@ open class TextValidator: NSObject {
     ///   - message: validation failure message
     /// - Returns: true -> on success
     public func isFieldMatches(textField1:UITextField, textField2:UITextField, message:String) -> Bool {
-        responderTextField = field
+        responderTextField = textField2
         if(textField1.text == textField2.text){
             return true
         }
