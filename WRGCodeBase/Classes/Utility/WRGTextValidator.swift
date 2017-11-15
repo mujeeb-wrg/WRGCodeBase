@@ -148,6 +148,20 @@ open class TextValidator: NSObject {
         return false
     }
     
+    func isLengthOf(field:UITextField,is length:Int, message:String) -> Bool {
+        responderTextField = field
+        return isLengthOf(text: field.text, is: length, message: message)
+    }
+    
+    func isLengthOf(text:String,is length:Int, message:String) -> Bool {
+        if text.count == length {
+            return true
+        }
+        showValidationError(withMessage: message)
+        return false
+    }
+    
+    
     fileprivate func showValidationError(withMessage Message: String) {
         if(viewController == nil) {
             return
