@@ -15,9 +15,11 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		A6F3DF70B5CCB280FCE9B1DB /* Pods_WRGCodeBase_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD6E134EA8C27A9FDC45BCE /* Pods_WRGCodeBase_Tests.framework */; };
 		EA931B591F84B50900E25B51 /* WRGCodeBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA931B5A1F84B50900E25B51 /* WRGCodeBase.framework */; };
+		EA96EF1C1FA98C14000E1F60 /* WRGColorContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA96EF1B1FA98C14000E1F60 /* WRGColorContoller.swift */; };
 		EAC500631F95C8D100B9A683 /* JSONController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC500621F95C8D100B9A683 /* JSONController.swift */; };
 		EAC500651F95C91A00B9A683 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC500641F95C91A00B9A683 /* Employee.swift */; };
 		EAC5006B1F95DB7000B9A683 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAC5006D1F95DB7000B9A683 /* InfoPlist.strings */; };
+		EAFC62BC1FBC2E9800D1FB08 /* TextValidatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC62BB1FBC2E9800D1FB08 /* TextValidatorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +51,13 @@
 		AA2B84E4AC89BD93171A310B /* Pods_WRGCodeBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRGCodeBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBD6E134EA8C27A9FDC45BCE /* Pods_WRGCodeBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WRGCodeBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA931B5A1F84B50900E25B51 /* WRGCodeBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WRGCodeBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA96EF1B1FA98C14000E1F60 /* WRGColorContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WRGColorContoller.swift; sourceTree = "<group>"; };
 		EAC500621F95C8D100B9A683 /* JSONController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONController.swift; sourceTree = "<group>"; };
 		EAC500641F95C91A00B9A683 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		EAC500671F95D90600B9A683 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		EAC500681F95D90700B9A683 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EAC5006C1F95DB7000B9A683 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAFC62BB1FBC2E9800D1FB08 /* TextValidatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextValidatorController.swift; sourceTree = "<group>"; };
 		F16F6A502EF8298C63866128 /* Pods-WRGCodeBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRGCodeBase_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WRGCodeBase_Example/Pods-WRGCodeBase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F9CF54B88AB9DFBC35A58A8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,9 +175,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EA96EF1A1FA98BC1000E1F60 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				EA96EF1B1FA98C14000E1F60 /* WRGColorContoller.swift */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
 		EAC500601F95C61900B9A683 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				EAFC62BA1FBC2E8600D1FB08 /* Validator */,
+				EA96EF1A1FA98BC1000E1F60 /* UIColor */,
 				EAC500661F95D8E100B9A683 /* Localization */,
 				EAC500611F95C62600B9A683 /* Json */,
 			);
@@ -194,6 +208,14 @@
 			children = (
 			);
 			name = Localization;
+			sourceTree = "<group>";
+		};
+		EAFC62BA1FBC2E8600D1FB08 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				EAFC62BB1FBC2E9800D1FB08 /* TextValidatorController.swift */,
+			);
+			name = Validator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,7 +424,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				EAFC62BC1FBC2E9800D1FB08 /* TextValidatorController.swift in Sources */,
 				EAC500651F95C91A00B9A683 /* Employee.swift in Sources */,
+				EA96EF1C1FA98C14000E1F60 /* WRGColorContoller.swift in Sources */,
 				EAC500631F95C8D100B9A683 /* JSONController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

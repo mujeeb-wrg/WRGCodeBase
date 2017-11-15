@@ -16,7 +16,8 @@ public extension UIColor {
     ///   - hex: hex color code
     ///   - alpha: alpha
     public convenience init(hex: String, alpha: Float = 1.0){
-        let scanner = Scanner(string:hex)
+        let purifiedHex = hex.replacingOccurrences(of: "#", with: "")
+        let scanner = Scanner(string:purifiedHex)
         var color:UInt32 = 0;
         scanner.scanHexInt32(&color)
         let mask = 0x000000FF

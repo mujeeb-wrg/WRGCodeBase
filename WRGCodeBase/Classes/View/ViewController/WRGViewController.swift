@@ -4,21 +4,17 @@
 //
 //  Created by Mujeeb R. O on 04/10/17.
 //
-
 import UIKit
 
+open class WRGViewController: UIViewController {
 
-public class WRGViewController: UIViewController {
-
-    override public func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-    override public func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        callWebservice()
     }
     
+    open func callWebservice()  {
+        
+    }
     
 }
