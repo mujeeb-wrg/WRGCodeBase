@@ -166,8 +166,8 @@ open class TextValidator: NSObject {
         if(viewController == nil) {
             return
         }
-        let alert = UIAlertController(title: title, message: Message, preferredStyle: UIAlertControllerStyle.alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default){
+        let alert = UIAlertController(title: title, message: Message, preferredStyle: UIAlertController.Style.alert)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default){
             alert in
             
             guard let textfield = self.responderTextField else{
